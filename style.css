@@ -1210,12 +1210,13 @@ button:hover {
   }
 
   .achievements-info {
-    margin-left: 0;
+    margin-left: -5%;
     width: 100%;
   }
 
   .achievements-img {
     width: 100%;
+    margin-left: -5%;
   }
   /* Skills */
   .skills {
