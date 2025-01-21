@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalpana's Portfolio</title>
+    <link href="public\icon.png" rel="icon" type="image/gif" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Back to top button styling-->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+    />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script
+      src="https://kit.fontawesome.com/9fa51d37bd.js"
+      crossorigin="anonymous"
+    ></script>
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+    
+  </head>
+  <body>
+    
+ 
+    <div class="header" id="home">
+      <div class="logo">
+        <h2>Kalpana Palusa</h2>
+      </div>
+      <div class="header2" id="header2">
+        <ul class="menu2">
+          <li data-section="header-container"><a href="#header2">Home</a></li>
+          <li data-section="About"><a href="#About">About</a></li>
+          <li data-section="projects"><a href="#projects">Project</a></li>
+          <li data-section="skills"><a href="#skills">Skills</a></li>
+          <li data-section="contact"><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="hamburger-menu" onclick="toggleMenu()">
+        <i class="fa-solid fa-bars"></i>
+    </div>
+    <!-- Dropdown Menu -->
+    <div class="dropdown-menu">
+        <a href="#About">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+      </div>
+    
+
+    <div id="header-container">
+      <div class="content">
+        <h1>Hi, I'm Kalpana Palusa</h1>
+        <span id="element"></span>
+        <hr />
+        <p>
+          I am a motivated and results-oriented professional with a solid technical background and a passion for continuous learning.
+           I am experienced in developing innovative solutions to address complex challenges and drive organizational success. 
+           Highly adaptable, detail-oriented, and dedicated to ongoing professional growth, I align my efforts with company goals and values. 
+           I am seeking a challenging position in a progressive organization where I can contribute meaningfully and gain valuable experience.
+        </p>
+        <div class="social_media">
+          <div>
+            <a
+              href="https://www.linkedin.com/in/kalpana-palusa-892859229 "
+              target="_blank"
+              ><i class="fa-brands fa-linkedin fa-bounce button"></i
+            ></a>
+            <a href="https://github.com/palusakalpana" target="_blank"
+              ><i class="fa-brands fa-github fa-beat button"></i
+            ></a>
+          </div>
+          <div class="resume-container">
+            <a href="Images/Kalpana_ATS_Resume.pdf" target="_blank">
+              <div class="resume">
+                <div class="text">Resume</div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="__content">
+          <div class="front">
+            <video autoplay muted loop>
+              <source src="Images/About Video.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="back">
+            <h1>HOBBIES</h1>
+            <ul>
+              <li>Content writing</li>
+              <br />
+              <li>Travelling</li>
+              <br />
+              <li>Reading Books</li>
+              <br />
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container reveal" id="About">
+      <div class="about-container">
+        <div class="about-img">
+          <img src="Images/kalpana.jpg" alt="photo" />
+        </div>
+        <div class="about-content" >
+          <h1>A Bit About Me</h1>
+          <br />
+          <p>
+            I am a recent B.Tech graduate in Artificial Intelligence from Vidya Jyothi Institute of Technology. With a strong programming background, 
+            I enjoy contributing to open-source projects and writing content in my free time. 
+            I am passionate about continuous learning and excited to apply my skills in a professional setting.
+          </p>
+        </div>
+      </div>
+    </div>
+<!-- Projects -->
+<div class="projects" id="projects">
+  <h1>Projects</h1>
+  <hr>
+  
+  <!-- Project 1 -->
+  <div class="project">
+    <div class="project-details">
+      <h2>Project #1: Smart Umbrella with Lightning Detection</h2>
+      <p>Developed an IoT-based system using Arduino Uno for real-time lightning detection and thunder impact mitigation, featuring an automatic umbrella mechanism triggered by a rain sensor.
+        Integrated a lightning detection sensor with the IoT platform (Bolt Cloud) to enable real-time data transmission and analysis.
+          Designed and implemented a grounding system to safely neutralize thunder impacts and enhance user safety.</p>
+      <span>Arduino Programming</span>
+      <span>Embedded Systems</span>
+      <span>IOT</span>
+    </div>
+    <div class="project-video" data-aos="zoom-in-up" data-aos-delay="1000" >
+      <video autoplay muted loop>
+        <source src="Images/smartUmbrella.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+  <!-- Project 2 -->
+  <div class="project">
+    <div class="project-details">
+      <h2>Project #2: Shisha's Hospital Website</h2>
+      <p>Developed a user-friendly and professional website for Shisha's Hospital, emphasizing its dedication to natural healing and holistic wellness.
+         The website includes key sections such as About, Services, Departments, Offers, and FAQs, ensuring a seamless and informative experience for visitors. 
+         It effectively highlights the hospital’s expertise in naturopathy and its personalized approach to healthcare, fostering a strong connection between patients and the hospital.</p>
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>Bootstrap</span>
+    </div>
+    <div class="project-video" data-aos="flip-left"data-aos-delay="1000">
+      <video autoplay muted loop>
+        <source src="Images/Shisha'sHsptl.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+  <!-- Project 3 -->
+  <div class="project">
+    <div class="project-details">
+      <h2>Project #3: Celebrity Image Classifier</h2>
+      <p>Developed a Sports Celebrity Image Classifier using Python 3.8, employing OpenCV for face/eye detection,
+        Wavelet Transform for feature extraction,
+        and Numpy for data preprocessing, achieving 84.15% accuracy with Logistic Regression.</p>
+     <span>HTML</span>
+     <span>CSS</span>
+     <span>JavaScript</span>
+    </div>
+    <div class="project-video" data-aos="flip-down"data-aos-delay="1000">
+      <video autoplay muted loop>
+        <source src="Images/Celebrity.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+</div>
+
+   
+
+<!-- Achievements -->
+    <div class="achievements-section">
+      <div class="achievements-info">
+        <h1>Achievements</h1>
+        <hr>
+        <ul>
+          <li>Participated in project exhibition <strong>Contrive'2023</strong> event and made it into the best project lists.</li>
+          <li>Won <strong>2nd prize</strong> at national-level techno-cultural fest, <strong>Udhbhav 22</strong>.</li>
+          <li>Certified for a 2-day workshop on designing an <strong>ML model using Python</strong>.</li>
+          <li>Participated in a workshop on <strong>effective communication skills for career opportunities</strong> and received a certificate for active participation.</li>
+          <li>Received a certificate for active participation in the <strong>Design-a-thon coding contest</strong>.</li>
+        </ul>
+      </div>
+      <div class="achievements-img" data-aos="flip-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="2000">
+        <img src="Images/Achivements.jpg" alt="Achievements Image">
+      </div>
+    </div>
+    
+    <div class="skills-container" id="skills">
+      <div class="container reveal">
+        <div class="skills">
+          <div class="skills-header">
+            <span class="letter">S</span>
+            <span class="letter">k</span>
+            <span class="letter">i</span>
+            <span class="letter">l</span>
+            <span class="letter">l</span>
+            <span class="letter">s</span>
+          </div>
+          <div class="coding-languages">
+            <ul>
+              <li>
+                <img src="Images/html.png" width="80px" alt="HTML" /><span
+                  >HTML</span
+                >
+              </li>
+              <li>
+                <img src="Images/Css.png" width="80px" alt="CSS" /><span
+                  >CSS</span
+                >
+              </li>
+              <li>
+                <img src="Images/python.png" width="80px" alt="PYTHON" /><span
+                  >PYTHON</span
+                >
+              </li>
+              <li>
+                <img src="Images/mysql.png" width="80px" alt="MySQL" /><span
+                  >MySQL</span
+                >
+              </li>
+              <li>
+                <img src="Images/github.png" width="80px" alt="GITHUB" /><span
+                  >GITHUB</span
+                >
+              </li>
+          
+              <li>
+                <img
+                  src="Images/bootstrap.png"
+                  width="80px"
+                  alt="BOOTSTRAP"
+                /><span>BOOTSTRAP</span>
+              </li>
+              <li>
+                <img
+                  src="Images/javascript.png"
+                  width="75px"
+                  alt="JAVASCRIPT"
+                /><span>JS</span>
+              </li>
+              <li>
+                <img src="Images/html.png" width="80px" alt="HTML" /><span
+                  >HTML</span
+                >
+              </li>
+              <li>
+                <img src="Images/Css.png" width="80px" alt="CSS" /><span
+                  >CSS</span
+                >
+              </li>
+              <li>
+                <img src="Images/python.png" width="80px" alt="PYTHON" /><span
+                  >PYTHON</span
+                >
+              </li>
+              <li>
+                <img src="Images/mysql.png" width="80px" alt="MySQL" /><span
+                  >MySQL</span
+                >
+              </li>
+              <li>
+                <img src="Images/github.png" width="80px" alt="GITHUB" /><span
+                  >GITHUB</span
+                >
+              </li>
+              
+              <li>
+                <img
+                  src="Images/bootstrap.png"
+                  width="80px"
+                  alt="BOOTSTRAP"
+                /><span>BOOTSTRAP</span>
+              </li>
+              <li>
+                <img
+                  src="Images/javascript.png"
+                  width="75px"
+                  alt="JAVASCRIPT"
+                /><span>JS</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Details -->
+    <div class="contact-container" id="contact">
+      <h1>Contact Me</h1>
+      <hr>
+      <form action="mailto:palusa.kalpana@gmail.com" method="post" enctype="text/plain"> 
+        <div class="input-group">
+          <label for="first-name">First Name</label>
+          <input
+            type="text"
+            name="first_name"
+            id="first-name"
+            placeholder="Enter your first name"
+            required
+          />
+        </div>
+  
+        <div class="input-group">
+          <label for="last-name">Last Name</label>
+          <input
+            type="text"
+            name="last_name"
+            id="last-name"
+            placeholder="Enter your last name"
+            required
+          />
+        </div>
+  
+        <div class="input-group">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter your email"
+            required
+          />
+        </div>
+  
+        <div class="textarea-group">
+          <label for="message">Message</label>
+          <textarea
+            name="message"
+            id="message"
+            rows="5"
+            placeholder="Write your message"
+            required
+          ></textarea>
+        </div>
+  
+        <div class="submit-btn">
+          <button type="submit">Send</button>
+        </div>
+      </form>
+    </div>
+  
+    
+    
+    <footer class="footer-container">
+      <div class="footer-content">Kalpana Palusa</div>
+      <div class="footer-icons">
+        <a href="https://github.com/palusakalpana" target="_blank"
+          ><i class="fa-brands fa-github fa-beat-fade"></i
+        ></a>
+  
+        <a href="https://www.linkedin.com/in/kalpana-palusa-892859229" target="_blank"
+          ><i class="fa-brands fa-linkedin-in fa-beat-fade"></i
+        ></a>
+        <a href="mailto:palusa.kalpana@gmail.com" target="_blank"
+          ><i class="fa-solid fa-envelope fa-beat-fade"></i
+        ></a>
+      </div>
+    </footer>
+
+    
+
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Frontend Engineer", "Web Designer", "Frontend Developer"],
+        typeSpeed: 50,
+        backSpeed: 50,
+        cursorChar: "|",
+        loop: true,
+      });
+
+      function toggleMenu() {
+  const hamburger = document.querySelector('.hamburger-menu');
+  const dropdownMenu = document.querySelector('.dropdown-menu');
+
+  // Toggle the 'show' class on the dropdown menu
+  dropdownMenu.classList.toggle('show');
+}
+
+
+    </script>
+
+  <script>
+    AOS.init();
+  </script>
+  </body>
+</html>
